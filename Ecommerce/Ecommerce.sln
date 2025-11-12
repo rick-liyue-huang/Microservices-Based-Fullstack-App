@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B0792F3C-653A-4741-80EA-B971CC2828B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog", "Services\Catalog\Catalog.csproj", "{EFA10602-793F-400B-9B69-AD0B8DD70914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFA10602-793F-400B-9B69-AD0B8DD70914} = {B0792F3C-653A-4741-80EA-B971CC2828B6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFA10602-793F-400B-9B69-AD0B8DD70914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA10602-793F-400B-9B69-AD0B8DD70914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA10602-793F-400B-9B69-AD0B8DD70914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA10602-793F-400B-9B69-AD0B8DD70914}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
