@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nU84T2A/A88=",
+  "dgSpecHash": "vVtBuyBtsic=",
   "success": true,
-  "projectFilePath": "/Users/rickhuang668/Projects/Microservices-Based-Ecommerce-API/Ecommerce/Services/Catalog/Catalog.csproj",
+  "projectFilePath": "/Users/rickhuang668/Projects/Microservices-Based-Ecommerce-API/Ecommerce/Services/Catalog/Catalog/Catalog.csproj",
   "expectedPackageFiles": [
     "/Users/rickhuang668/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0/microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
