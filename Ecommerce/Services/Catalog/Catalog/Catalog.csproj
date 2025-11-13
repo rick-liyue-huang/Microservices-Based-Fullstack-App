@@ -18,10 +18,8 @@
       <Folder Include="Commands\" />
       <Folder Include="Controllers\" />
       <Folder Include="Data\" />
-      <Folder Include="Entities\" />
       <Folder Include="Handlers\" />
       <Folder Include="Queries\" />
-      <Folder Include="Repositories\" />
     </ItemGroup>
 
 </Project>
