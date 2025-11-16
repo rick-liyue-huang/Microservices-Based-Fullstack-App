@@ -1,5 +1,12 @@
 namespace Catalog.Specifications;
 
+/**
+ * will be used to pass the parameters for filtering, sorting, searching, and pagination,
+ * it is used as class to wrap all the parameters,
+ * to avoid the long list of parameters in the method signature.
+ * and also easy to extend in the future.
+ */
+
 public class CatalogSpecParams
 {
     private const int MaxPageSize = 70;
