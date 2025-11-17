@@ -17,6 +17,6 @@ public class GetProductsByBrandHandler : IRequestHandler<GetProductsByBrandQuery
     public async Task<IList<ProductResponse>> Handle(GetProductsByBrandQuery request, CancellationToken cancellationToken)
     {
         var productList = await _productRepository.GetAllProductByBrandAsync(request.BrandName);
-        return productList.ToProductByBrandResponseList().ToList();
+        return productList.ToProductResponseList().ToList();
     }
 }

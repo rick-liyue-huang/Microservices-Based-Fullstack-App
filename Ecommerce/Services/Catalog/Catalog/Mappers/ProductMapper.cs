@@ -29,7 +29,7 @@ public static class ProductMapper
         return new Pagination<ProductResponse>(products.PageIndex, products.PageSize, products.Count, productResponses);
     }
 
-    public static IEnumerable<ProductResponse> ToProductByBrandResponseList(this IEnumerable<Product> products)
+    public static IEnumerable<ProductResponse> ToProductResponseList(this IEnumerable<Product> products)
     {
         return products.Select(p => p.ToProductResponse());
     }
