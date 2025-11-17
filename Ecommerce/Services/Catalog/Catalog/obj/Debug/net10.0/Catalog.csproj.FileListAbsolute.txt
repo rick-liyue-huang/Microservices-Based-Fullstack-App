@@ -47,3 +47,6 @@
 /Users/rickhuang668/Projects/Microservices-Based-Ecommerce-API/Ecommerce/Services/Catalog/Catalog/obj/Debug/net10.0/Catalog.pdb
 /Users/rickhuang668/Projects/Microservices-Based-Ecommerce-API/Ecommerce/Services/Catalog/Catalog/obj/Debug/net10.0/Catalog.genruntimeconfig.cache
 /Users/rickhuang668/Projects/Microservices-Based-Ecommerce-API/Ecommerce/Services/Catalog/Catalog/obj/Debug/net10.0/ref/Catalog.dll
+/Users/rickhuang668/Projects/Microservices-Based-Ecommerce-API/Ecommerce/Services/Catalog/Catalog/bin/Debug/net10.0/Data/SeedData/brands.json
+/Users/rickhuang668/Projects/Microservices-Based-Ecommerce-API/Ecommerce/Services/Catalog/Catalog/bin/Debug/net10.0/Data/SeedData/products.json
+/Users/rickhuang668/Projects/Microservices-Based-Ecommerce-API/Ecommerce/Services/Catalog/Catalog/bin/Debug/net10.0/Data/SeedData/types.json
