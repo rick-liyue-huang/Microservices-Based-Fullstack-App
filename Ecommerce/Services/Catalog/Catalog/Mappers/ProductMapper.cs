@@ -28,4 +28,9 @@ public static class ProductMapper
         var productResponses = products.Data.Select(p => p.ToProductResponse()).ToList();
         return new Pagination<ProductResponse>(products.PageIndex, products.PageSize, products.Count, productResponses);
     }
+
+    public static IEnumerable<ProductResponse> ToProductByBrandResponseList(this IEnumerable<Product> products)
+    {
+        return products.Select(p => p.ToProductResponse());
+    }
 }
