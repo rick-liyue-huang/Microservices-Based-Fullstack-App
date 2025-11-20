@@ -1,3 +1,4 @@
+using Catalog.Commands;
 using Catalog.Entities;
 using Catalog.Responses;
 using Catalog.Specifications;
@@ -33,4 +34,36 @@ public static class ProductMapper
     {
         return products.Select(p => p.ToProductResponse());
     }
+    
+    public static Product ToProductEntity(this CreateProductCommand command, ProductBrand brand, ProductType type)
+    {
+        return new Product
+        {
+            Name = command.Name,
+            Summary = command.Summary,
+            Description = command.Description,
+            Price = command.Price,
+            ImageFile = command.ImageFile,
+            Brand = brand,
+            Type = type,
+            CreatedDate = DateTimeOffset.Now
+        };
+    }
+    
+    public static Product ToUpdateProductEntity(this UpdateProductCommand command, Product product, ProductBrand brand, ProductType type)
+    {
+        return new Product
+        {
+            Id = product.Id,
+            Name = command.Name,
+            Summary = command.Summary,
+            Description = command.Description,
+            Price = command.Price,
+            ImageFile = command.ImageFile,
+            Brand = brand,
+            Type = type,
+            CreatedDate = product.CreatedDate // Preserve the original created date
+        };
+    }
+    
 }
