@@ -102,4 +102,15 @@ public class CatalogController : ControllerBase
         var result = await _mediator.Send(query);
         return Ok(result);
     }
+    
+    [HttpGet("brand/{brand}", Name="GetProductsByBrand")]
+
+    public async Task<ActionResult<IEnumerable<ProductDto>>> GetProductsByBrand(string brand)
+    {
+        // get the products
+        var query = new GetProductsByBrandQuery(brand);
+        var result = await _mediator.Send(query);
+        return Ok(result);
+    }
+    
 }
