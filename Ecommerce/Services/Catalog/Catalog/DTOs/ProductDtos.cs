@@ -9,6 +9,7 @@ public record ProductDto(
     string Description,
     string ImageFile,
     BrandDto Brand,
+    decimal Price,
     TypeDto Type,
     DateTimeOffset CreatedDate
 );
