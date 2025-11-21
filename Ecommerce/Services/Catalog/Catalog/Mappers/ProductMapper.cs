@@ -22,6 +22,7 @@ public static class ProductMapper
             ImageFile = product.ImageFile,
             Type = product.Type,
             Brand = product.Brand,
+            CreatedDate = product.CreatedDate
         };
     }
     
