@@ -8,3 +8,19 @@ public record CreateShoppingCartItemDto
     public int Quantity { get; set; }
     public string ImageFile { get; set; }
 }
+
+public record ShoppingCartDto
+(
+    string UserName,
+    List<ShoppingCartItemDto> Items,
+    decimal TotalPrice
+);
+
+public record ShoppingCartItemDto
+(
+    string ProductId,
+    string ProductName,
+    decimal Price,
+    int Quantity,
+    string ImageFile
+);
